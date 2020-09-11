@@ -1,0 +1,91 @@
+*{margin:10;
+padding:0;
+}
+
+body{
+    max-width: ;
+    background:#95a9c9;
+    font-family: 'Roboto', sans-serif;
+
+}
+.container{
+    width:800px;
+    margin: 0 auto;
+    background-color:#657896e3;
+
+}
+.profile-img{
+    width:100px;
+    height:120px;
+    border: 5px solid white;
+    border-radius: 100px;
+    padding: 0 auto;
+    float: left;
+
+}
+.header-bio{
+    color: rgb(65, 59, 68);
+    float: left;
+    padding:30px;
+}
+h1,h2.h3,h4,h6,h5{
+    color: #11999e;
+}
+.contact{
+    float: right;
+    padding: 30px;
+}
+.contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+
+}
+.contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid 3px white;
+    width:100%;
+    border-bottom: none;
+}
+/*-----------
+personal section
+-----------*/
+#personal{
+    padding-top: 10px;
+
+}
+.left{
+width: 30%;
+float:left;
+}
+.right{
+width: 70%;
+float:left;
+}
+.common-hr{
+    border: solid white 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+   
+}
+/*-----------
+personal section
+-----------*/
+.bottom{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+
+}
+.bottom a{
+    color: white;
+    text-decoration: none;
+    margin-top:20px;
+}
